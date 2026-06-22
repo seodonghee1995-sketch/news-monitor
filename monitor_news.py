@@ -3,7 +3,7 @@ import requests
 
 # 여기 따옴표 안에 아까 복사한 토큰을 넣으세요!
 # 예: MY_PUSH_TOKEN = 'ExponentPushToken[abc1234567890]'
-MY_PUSH_TOKEN = '여기에_토큰을_붙여넣으세요'
+MY_PUSH_TOKEN = 'ExponentPushToken[MnJZoPJzjbUXSNRFN7TqZG]'
 
 # 1. RSS URL
 RSS_URL = 'https://www.hankyung.com/feed/all-news'
