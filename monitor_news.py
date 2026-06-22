@@ -14,7 +14,7 @@ def check_news():
     feed = feedparser.parse(RSS_URL)
     # 금리가 포함된 첫 번째 기사 찾기
     for entry in feed.entries[:5]: # 최신 5개만 확인
-        if '금리' in entry.title:
+        if True:
             send_push_notification(entry.title, entry.link)
             break 
 
